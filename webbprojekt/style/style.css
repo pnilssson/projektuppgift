@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat");
+.navbar {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(250, 255, 255, 0.9);
+  box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+}
+.navbar .navbar-toggle {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  color: black;
+  font-size: 20px;
+  height: 50px;
+}
+.navbar ul {
+  display: none;
+}
+.navbar li {
+  list-style: none;
+  margin: 30px 15px 15px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.navbar i {
+  margin-left: 0;
+  color: black;
+  font-size: 30px;
+}
+.navbar .icon {
+  display: none;
+}
+.navbar .mobile-logo {
+  display: inline-block;
+  margin: 10px 20px 5px 20px;
+  width: 82px;
+  height: 50px;
+  background: url("../img/campus-logo-mobile.png");
+}
+.navbar .desktop-logo {
+  display: none;
+}
+
+.footer {
+  padding: 10px 10px 5px 10px;
+  background-color: rgba(250, 255, 255, 0.9);
+  height: auto;
+  -webkit-box-shadow: 0 -1px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 -1px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 -1px 5px -1px rgba(0, 0, 0, 0.75);
+}
+.footer ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.footer li {
+  margin-top: 10px;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer i {
+  margin-right: 10px;
+}
+
+/* TABLETS */
+@media (min-width: 768px) {
+  .footer {
+    padding: 15px 0 0 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  .footer li {
+    margin-top: 10px;
+  }
+  .footer i {
+    margin-right: 10px;
+  }
+}
+/* DESKTOPS */
+@media (min-width: 1132px) {
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 143px;
+  }
+  .navbar .navbar-toggle {
+    display: none;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar li {
+    margin: 15px 15px 15px 15px;
+  }
+  .navbar a:hover {
+    color: #0070F1;
+  }
+  .navbar .mobile-logo {
+    display: none;
+  }
+  .navbar .desktop-logo {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    height: 114px;
+    width: 158px;
+    background: url("../img/campus-logo.png");
+  }
+  .navbar .icon {
+    margin-left: 45%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .footer {
+    padding: 15px 0 0 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  .footer li {
+    margin-top: 10px;
+  }
+  .footer a:hover {
+    color: #0070F1;
+  }
+  .footer i {
+    margin-right: 10px;
+  }
+}
+/* OVERALL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: font-family, "Montserrat", sans-serif;
+  background-color: #FAFFFF;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+h1, h2, h3, h4 {
+  font-family: font-family, "Merriweather", serif;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.153em;
+}
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.136em;
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.111em;
+}
+
+/* TABLETS */
+/* DESKTOPS */
+@media (min-width: 1132px) {
+  /* OVERALL */
+  p {
+    font-size: 1em;
+    line-height: 1.375em;
+  }
+
+  h1 {
+    font-size: 3em;
+    line-height: 1.25em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.25em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+    line-height: 1.25em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+    line-height: 1.222em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
