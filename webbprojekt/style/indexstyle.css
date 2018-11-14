@@ -1,0 +1,19 @@
+/* TABLETS */
+/* DESKTOPS */
+@media (min-width: 1132px) {
+  .index-grid-contatiner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: minmax(30px, auto);
+  }
+
+  .grid-item-all {
+    grid-column: 1/6;
+  }
+
+  .top-image {
+    background: url("");
+  }
+}
+
+/*# sourceMappingURL=indexstyle.css.map */
