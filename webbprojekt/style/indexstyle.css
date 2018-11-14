@@ -7,12 +7,19 @@
     grid-template-rows: minmax(30px, auto);
   }
 
-  .grid-item-all {
+  .grid-column-all {
     grid-column: 1/6;
   }
 
   .top-image {
-    background: url("");
+    background: url("../img/campus-wall.jpg") no-repeat center;
+    height: 350px;
+    margin-top: 143px;
+  }
+
+  .testbg {
+    height: 100vh;
+    background-color: black;
   }
 }
 
