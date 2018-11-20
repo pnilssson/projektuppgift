@@ -1,0 +1,114 @@
+{
+
+      "alignmentHeader": "Utbildningar",
+      
+      "alignmentText":[
+
+        "IT-projektledare",
+        "Aktiveringspedagog inom LSS",
+        "Java- och webbutvecklare",
+        "Moln- och virtualiseringsspecialist",
+        "Specialiserad studiehandledare"
+
+      ], 
+      "bookmarkHeader":"Bokmärken",
+
+      "bookmarkLinks":[
+        "context",
+        "fast-facts",
+        "context-education",
+        "java-courses",
+        "java-appropriate",
+        "java-application",
+        "java-contact"
+      ],
+
+      "bookmarkText":[
+        "Inehåll",
+        "Snabbfakta",
+        "Utbildningen",
+        "Kurser",
+        "Behörighet",
+        "Ansökan",
+        "Kontakt"
+
+      ],
+
+      "mainHeader": "Är du intresserad av IT och programmering?",
+      
+      "mainText": [
+        "Det här är utbildningen som ger dig kompetens inom både system- och webbutveckling, vilket gör dig unik och mycket eftertraktad på arbetsmarknaden.",
+        "Efter utbildningen har du de kunskaper som krävs för att skapa nya eller vidareutveckla befintliga system och applikationer. Du arbetar enskilt eller i team med utveckling och förvaltning av företags IT-tjänster – vanligtvis med analys, utveckling, samt test- och kvalitetssäkring.",
+        "Utbildningen genomförs i nära samarbete med IT-företag inom Västra Götalandsregionen med fokus på infrastruktur. Exempel på yrkesroller som utbildningen leder till är programmerare, javautvecklare, webbutvecklare och front- och backendutvecklare."
+      ],
+      "factHeader": "Snabbfakta",
+     
+      "factText": [
+        "Examen: Yrkeshögskoleexamen",
+        "Start: Aug 2018",
+        "Behörighetsgivande förutbildning startar 30 juli 2018*",
+        "Längd: 400 YH-poäng (2 år)",
+        "Studietakt: Heltid, dagtid",
+        "Studieort: Mölndal, Campus Mölndal",
+        "Antal platser: 20 st",
+        "LIA: 24 veckor (praktik)"        
+      ],
+      "factExtra":"* 4 veckor heltid på distans, 4 fysiska träffar",
+      
+      "educationHeader":"Innehåll i utbildningen",
+      
+      "educationText": [
+      "Du lär dig objektorienterad programmering i Java och webbutveckling, med HTML, CSS, JavaScript och PHP. Du lär dig att programmera i JavaScriptramverk som t ex. Jquery, Angular och Node.",
+      "Utbildningen har stort fokus på Java- och webbutveckling, men du kommer också lära dig databashantering, webbinnehållshanteringssystemen (CMS) och webbtjänster (web services).",
+      "Du kommer även att lära dig om versionshantering och verktyget Git som används i större systemutvecklingsprojekt. Du kommer också att få kunskaper om olika agila metoder med fokus på Scrum och Lean. För att testa och kvalitetssäkra ditt arbete lär du dig dessutom om testdriven utveckling (TDD) och om att utveckla system med god kodstandard och struktur.",
+      "Under utbildningen varvas praktiska och laborativa moment med teoretiska moment. Kurserna LIA 1 och LIA 2 är förlagda till företag, där du lär dig genom att arbeta med ”riktiga” projekt. Samtidigt får du värdefulla branschkontakter."
+      ],
+      "coursesHeader" : "Kurser (YH-poäng*) som du läser:",
+
+      "coursesText" :[
+        "Agil systemutveckling 15 p",
+        "Databasutveckling 25 p",
+        "Datalogi 20 p",
+        "Objektorienterad programmering i Java 50 p",
+        "Systemutveckling i Java Enterprise Edition 40 p",
+        "Test och kvalitetssäkring 20",
+        "Webbutveckling 50 p",
+        "Webbutveckling inriktning ramverk 30 p",
+        "Examensarbete 30 p",
+        "LIA 1 (lärande i arbete) 60 p",
+        "LIA 2 (lärande i arbete) 60 p"
+      ],
+      "coursesExtra": "*5 YH-poäng motsvarar 1 veckas helstudier",
+
+      "appropriateHeader": "Är du behörig att söka?",
+
+      "appropriateText":[
+        "För att söka denna utbildning behöver du uppfylla grundläggande behörighet samt nedanstående särskilda förkunskaper.",
+        "Engelska 6 eller motsvarande",
+        "Matematik 2a/c eller motsvarande",
+        "Saknas betyg i ovanstående erbjuds nivåtest",
+        "Programmering 1 eller motsvarande*",
+        "Webbutveckling 1 eller motsvarande*",
+        "Saknar du ett betyg eller har tidigare kunskaper med dig inom området?",
+        "*Behörighetsgivande utbildning kan erbjudas för att få behörighet i kurserna programmering 1 och webbutveckling 1.",
+        "Läs mer om hur du kan få behörighet till yrkeshögskolan."
+      ],
+      "applicationHeader" :"Ansökan",
+
+      "applicationText" : [
+        "Ansökan för start HT2018 är stängd."
+      ],
+      "contactHeader" :"Kontakt",
+
+      "contactText" : [
+        "Är du intresserad av mer information kring utbildningen kontakta Rickard Hagerberg på Campus Mölndal.",
+        "Rickard Hagerberg",
+        "Verksamhetsutvecklare",
+        "0700-32 68 52",
+        "rickard.hagerberg@molndal.se",
+        "Vägledning Campus Mölndal ",
+        "Tfn expedition: 031-315 10 14 ",
+        "yh.campus@molndal.se"
+      ]
+      }
+
