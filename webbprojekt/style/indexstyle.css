@@ -1,25 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat");
+.index-grid-container h3 {
+  margin-bottom: 10px;
+}
+.index-grid-container h4 {
+  margin-bottom: 10px;
+}
+.index-grid-container article {
+  margin: 0 10px 10px 10px;
+}
+.index-grid-container img {
+  width: 100%;
+  height: auto;
+}
+
+.read-more-button {
+  border: 2px #0070F1 solid;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 7px;
+  width: 120px;
+  text-align: center;
+  font-family: font-family, "Merriweather", serif;
+  color: #0070F1;
+}
+.read-more-button a {
+  color: #0070F1;
+  text-decoration: none;
+}
+
+.read-more-button:hover {
+  background-color: #0070F1;
+  color: #FAFFFF;
+  cursor: pointer;
+}
+
+.read-more-button:hover a {
+  color: #FAFFFF;
+}
+
+.datum-desktop {
+  display: none;
+}
+
+.top-image {
+  background: url("../img/campus-entry-400-dark.jpg") no-repeat center;
+  height: 400px;
+  box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+  color: #FAFFFF;
+}
+
+.top-image p {
+  position: relative;
+  top: 20%;
+  margin: 0 20% 0 5%;
+  padding: 10px;
+}
+
+.top-image h3 {
+  position: relative;
+  top: 20%;
+  margin: 0 20% 0 5%;
+  padding: 10px 10px 0 10px;
+}
+
+.news-pictures {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
 /* TABLETS */
-/* DESKTOPS */
+/* DESKTOP */
 @media (min-width: 1132px) {
-  .index-grid-contatiner {
+  .index-grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: minmax(30px, auto);
   }
 
   .grid-column-all {
-    grid-column: 1/6;
+    grid-column: 1/11;
+  }
+
+  .grid-column-center-all {
+    grid-column: 3/9;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .grid-column-left {
+    grid-column: 3/6;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .grid-column-center {
+    grid-column: 6/9;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .grid-column-right {
+    grid-column: 9/11;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .grid-news-left {
+    grid-column: 3/5;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .grid-news-center {
+    grid-column: 5/7;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .grid-news-right {
+    grid-column: 7/9;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .grid-row-3 {
+    grid-row: span 3;
+  }
+
+  .datum-desktop {
+    display: block;
+    position: sticky;
+    top: 160px;
+    grid-row: 2/span 3;
+  }
+  .datum-desktop h4 {
+    margin-top: 15px;
+  }
+  .datum-desktop li {
+    margin-top: 10px;
+  }
+
+  .datum-mobile {
+    display: none;
   }
 
   .top-image {
-    background: url("../img/campus-wall.jpg") no-repeat center;
-    height: 350px;
-    margin-top: 143px;
+    margin-bottom: 15px;
   }
-
-  .testbg {
-    height: 100vh;
-    background-color: black;
+  .top-image p {
+    top: 40%;
+    margin: 0 40% 0 5%;
+  }
+  .top-image h3 {
+    top: 40%;
+    margin: 0 40% 0 5%;
   }
 }
 
