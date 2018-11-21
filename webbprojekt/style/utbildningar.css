@@ -7,7 +7,6 @@ section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas: ". header header header ." ". left center right ." ". bottomLeft bottomLeft bottomRight .";
-  background-color: #2196F3;
   padding: 10px;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -15,27 +14,22 @@ section {
 
 .grid-header {
   grid-area: header;
-  background-color: #70C4FF;
 }
 
 .grid-column-left {
   grid-area: left;
-  background-color: #0070F1;
 }
 
 .grid-column-center {
   grid-area: center;
-  background-color: #2196F3;
 }
 
 .grid-column-right {
   grid-area: right;
-  background-color: deepskyblue;
 }
 
 .grid-bottom-left {
   grid-area: bottomLeft;
-  background-color: dodgerblue;
 }
 
 .grid-bottom-left div {
@@ -67,6 +61,10 @@ section {
   font-size: 150%;
   text-align: center;
   font-weight: bold;
+}
+
+.header img {
+  width: 100%;
 }
 
 .col-1 {
