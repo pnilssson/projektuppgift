@@ -6,18 +6,14 @@
   grid-area: gridbookmark;
 }
 
-/*Ta bort innan du importar */
-body{
-
-  margin: 0px;
-}
-/* footer ska bort från css*/
 
 .div-container-java li{
   margin-top: 10px;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 .alignment {
   display: none;
   ul{
@@ -27,25 +23,24 @@ body{
   }
   li{
     list-style-type: none;
-  }
-  p{
-
+    margin: 10px;
   }
   a{
-    color: black;
     text-decoration: none;
+    color: black;
   }
-  a :hover{
+
+
+  p :hover{
     color: blue ;
   }
   position: sticky;
   margin-top: -75px;
   top: 150px;
-  width: 17%;
+
   margin-left: 1%;
-  z-index: -1;
- //  background-color: rgba(250, 255, 255, 0.9);
- // box-shadow: 0 1px 5px -2px rgba(0,0,0,0.75);
+  z-index: 1;
+
 
 }
 
@@ -54,9 +49,11 @@ body{
     margin-top: 15px;
   }
   a{
+
     text-decoration: none;
     color: black;
   }
+
 
   p :hover{
 
@@ -69,7 +66,7 @@ body{
     text-align: center;
   }
   li{
-
+    margin: 10px;
     display: inline;
     list-style-type:none ;
     p{
@@ -78,6 +75,7 @@ body{
     }
 
   }
+
 
 
 
@@ -99,13 +97,14 @@ body{
     }
 
   grid-area: gridtext;
+  padding-top: 100px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 50px;
 
 }
 .bold{
-  padding-top: 50px;
+  padding-top: 10px;
   font-weight: bold;
 }
 .java-picture{
@@ -144,7 +143,7 @@ body{
 
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-            'gridbookmark gridbookmark gridbookmark gridbookmark gridbookmark'
+            '. gridbookmark gridbookmark gridbookmark .'
             'gridalignment . . . .'
             '. gridtext gridtext gridtext .';
 

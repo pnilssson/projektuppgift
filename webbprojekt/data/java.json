@@ -84,31 +84,34 @@
 
       "appropriateText":[
         "För att söka denna utbildning behöver du uppfylla grundläggande behörighet samt nedanstående särskilda förkunskaper.",
-        "Engelska 6 eller motsvarande",
-        "Matematik 2a/c eller motsvarande",
+        "-Engelska 6 eller motsvarande",
+        "-Matematik 2a/c eller motsvarande",
         "Saknas betyg i ovanstående erbjuds nivåtest",
-        "Programmering 1 eller motsvarande*",
-        "Webbutveckling 1 eller motsvarande*",
+        "-Programmering 1 eller motsvarande*",
+        "-Webbutveckling 1 eller motsvarande*",
         "Saknar du ett betyg eller har tidigare kunskaper med dig inom området?",
         "*Behörighetsgivande utbildning kan erbjudas för att få behörighet i kurserna programmering 1 och webbutveckling 1.",
         "Läs mer om hur du kan få behörighet till yrkeshögskolan."
       ],
       "applicationHeader" :"Ansökan",
 
-      "applicationText" : [
-        "Ansökan för start HT2018 är stängd."
-      ],
+      "applicationText" :
+        "Ansökan för start HT2018 är stängd.",
       "contactHeader" :"Kontakt",
 
       "contactText" : [
         "Är du intresserad av mer information kring utbildningen kontakta Rickard Hagerberg på Campus Mölndal.",
-        "Rickard Hagerberg",
+
         "Verksamhetsutvecklare",
         "0700-32 68 52",
         "rickard.hagerberg@molndal.se",
-        "Vägledning Campus Mölndal ",
-        "Tfn expedition: 031-315 10 14 ",
+
+        "Tfn expedition: 031-315 10 14",
         "yh.campus@molndal.se"
+      ],
+      "contactBold" :[
+        "Rickard Hagerberg",
+        "Vägledning Campus Mölndal "
       ]
       }
 
