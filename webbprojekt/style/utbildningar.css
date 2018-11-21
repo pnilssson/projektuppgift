@@ -69,25 +69,6 @@ section {
   font-weight: bold;
 }
 
-.utbildningar {
-  font-size: 120%;
-  text-align: center;
-}
-
-#annaPraktik {
-  float: left;
-  width: 40%;
-  height: auto;
-}
-
-#yrkesHogskolan {
-  width: 100%;
-}
-
-div li {
-  margin-left: 20px;
-}
-
 .col-1 {
   float: left;
   margin-bottom: 10px;
@@ -96,15 +77,6 @@ div li {
 
 .courseImg img {
   width: 100%;
-}
-
-.courseHeader {
-  float: left;
-  font-weight: bold;
-}
-
-.courseStart {
-  color: gray;
 }
 
 .courseText {
@@ -116,9 +88,32 @@ div li {
   text-align: start;
 }
 
+.courseHeader {
+  float: left;
+  font-weight: bold;
+}
+
+.courseStart {
+  color: gray;
+}
+
+div li {
+  margin-left: 20px;
+}
+
 #reklamVideo {
   width: 100%;
   background-color: #777620;
+}
+
+#annaPraktik {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+#yrkesHogskolan {
+  width: 100%;
 }
 
 /*# sourceMappingURL=utbildningar.css.map */
