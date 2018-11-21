@@ -1,5 +1,119 @@
+@charset "UTF-8";
 section {
   display: grid;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: ". header header header ." ". left center right ." ". bottomLeft bottomLeft bottomRight .";
+  background-color: #2196F3;
+  padding: 10px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.grid-header {
+  grid-area: header;
+  background-color: #70C4FF;
+}
+
+.grid-column-left {
+  grid-area: left;
+  background-color: #0070F1;
+}
+
+.grid-column-center {
+  grid-area: center;
+  background-color: #2196F3;
+}
+
+.grid-column-right {
+  grid-area: right;
+  background-color: deepskyblue;
+}
+
+.grid-bottom-left {
+  grid-area: bottomLeft;
+  background-color: dodgerblue;
+}
+
+.grid-bottom-left div {
+  margin-bottom: 10px;
+}
+
+.grid-bottom-left ul {
+  list-style: none;
+}
+
+.grid-bottom-left li::before {
+  content: "• ";
+  color: red;
+}
+
+.grid-bottom-right {
+  grid-area: bottomRight;
+}
+
+.grid-bottom-right div {
+  margin-bottom: 10px;
+}
+
+#spaceTop {
+  margin-top: 150px;
+}
+
+.header {
+  font-size: 150%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-1 {
+  float: left;
+  margin-bottom: 10px;
+  width: 33%;
+}
+
+.courseImg img {
+  width: 100%;
+}
+
+.courseText {
+  font-size: 80%;
+  display: none;
+  bottom: 0px;
+  background-color: #00B252;
+  color: white;
+  text-align: start;
+}
+
+.courseHeader {
+  float: left;
+  font-weight: bold;
+}
+
+.courseStart {
+  color: gray;
+}
+
+div li {
+  margin-left: 20px;
+}
+
+#reklamVideo {
+  width: 100%;
+  background-color: #777620;
+}
+
+#annaPraktik {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+#yrkesHogskolan {
+  width: 100%;
 }
 
 /*# sourceMappingURL=utbildningar.css.map */
