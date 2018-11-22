@@ -8,7 +8,12 @@ $primary-blue: #0070F1;
 $secondary-blue: #70C4FF;
 
 /* MOBILE */
-
+.news-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
 
 /* TABLETS */
 @media (min-width: 768px) {

@@ -10,15 +10,15 @@
 <body>
 
 <section>
-    <form action="news_functions.php" method="post" id="newsForm">
-        <?php include('errors.php'); ?>
+    <form action="news_functions.php" method="post" class="news-form" id="newsForm" enctype="multipart/form-data">
+        <h3>Skapa nyhet:</h3>
         <label for="newsImg">Nyhetens bild</label>
         <input type="file" name="newsImg" id="newsImg">
         <label for="newsTitle">Nyhetens titel</label>
         <input type="text" name="newsTitle" id="newsTitle">
         <label for="newsText">Nyhetens innehåll</label>
         <textarea name="newsText" form="newsForm" id="newsText"></textarea>
-        <input type="submit" value="Lägg till nyhet">
+        <input type="submit" name="upload" value="Lägg till nyhet">
     </form>
 </section>
 

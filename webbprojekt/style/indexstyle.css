@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat");
 .index-grid-container h3 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .index-grid-container h4 {
   margin-bottom: 10px;
@@ -68,6 +69,61 @@
   height: auto;
   margin-bottom: 10px;
   box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.index-year {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.course-image {
+  height: 120px;
+  box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+  color: #FAFFFF;
+}
+.course-image h4 {
+  position: relative;
+  top: 10%;
+  margin: 0 5% 0 5%;
+}
+.course-image p {
+  position: relative;
+  top: 10%;
+  margin: 0 5% 0 5%;
+}
+
+.course-img1 {
+  background: url("../img/courses1.jpg") no-repeat center;
+}
+
+.course-img2 {
+  background: url("../img/courses2.jpg") no-repeat center;
+}
+
+.course-img3 {
+  background: url("../img/courses3.jpg") no-repeat center;
+}
+
+.course-img4 {
+  background: url("../img/courses4.jpg") no-repeat center;
+}
+
+.course-img5 {
+  background: url("../img/courses5.jpg") no-repeat center;
+}
+
+.course-img6 {
+  background: url("../img/courses6.jpg") no-repeat center;
+}
+
+.course-img7 {
+  background: url("../img/courses7.jpg") no-repeat center;
+}
+
+.course-img8 {
+  background: url("../img/courses8.jpg") no-repeat center;
 }
 
 /* TABLETS */

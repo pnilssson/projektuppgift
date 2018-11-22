@@ -243,6 +243,13 @@ h4 {
   }
 }
 /* MOBILE */
+.news-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
 /* TABLETS */
 /* DESKTOPS */
 
