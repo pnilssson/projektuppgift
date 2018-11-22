@@ -1,4 +1,4 @@
-$( function() { $( "#accordion" ).accordion(); });
+$( function() { $( "#accordion" ).accordion({collapsible: true, heightStyle: "content"}); });
 
 // snygga till med this om tid finnes.
 $(".imageBig1, #courseText1").hover(function(){ $('#courseText1').show(); },function(){ $('#courseText1').hide(); });
