@@ -54,7 +54,7 @@ section {
 }
 
 #spaceTop {
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 .header {
@@ -112,6 +112,14 @@ div li {
 
 #yrkesHogskolan {
   width: 100%;
+}
+
+h3 {
+  font-size: 100%;
+}
+
+p {
+  font-size: 100%;
 }
 
 /*# sourceMappingURL=utbildningar.css.map */

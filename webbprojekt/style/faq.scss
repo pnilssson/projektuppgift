@@ -1,0 +1,161 @@
+$header-font: font-family, 'Merriweather', serif;
+$body-font:font-family, 'Montserrat', sans-serif;
+$primary-blue: #0070F1;
+$secondary-blue: #70C4FF;
+
+#spaceTop {
+  margin-top: 130px;
+}
+section{
+  display: grid;
+}
+// Grid
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+          '. header header header .'
+          '. left center right .'
+          '. bottomLeft bottomRight bottomRight .';
+  //background-color: #2196F3;
+  padding: 10px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+.grid-header{
+  grid-area: header;
+  //background-color: #70C4FF;
+}
+.grid-column-left{
+  grid-area: left;
+  //background-color: #0070F1;
+}
+.grid-column-center{
+  grid-area: center;
+  //background-color: #2196F3;
+}
+.grid-column-right{
+  grid-area: right;
+  //background-color: deepskyblue;
+}
+.grid-bottom-left{
+  grid-area: bottomLeft;
+  //background-color: dodgerblue;
+}
+
+.grid-bottom-right{
+  grid-area: bottomRight;
+}
+// Grid ovanför
+
+
+
+// grid-header
+.header {
+  font-size: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.header img {
+  width: 100%;
+}
+h3{
+  margin-top: 20px;
+}
+
+// grid-bottom-left
+.meny {
+  background-color: #42464B;
+  color: #EEEEEE;
+  width: 340px;
+  font-size: 180%;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 20px 5px 20px;
+  text-align: center;
+  padding: 10px;
+}
+.meny:hover {
+  background-color: #666666;
+}
+
+// grid-bottom-right
+.tableCss {
+  font-weight: bold;
+  width: 120px;
+}
+.hiddenAccordion{
+  display: none;
+}
+
+
+
+
+// Borttaget
+//h3 {
+//  font-size: 100%;
+//}
+//p {
+//  font-size: 100%;
+//}
+//.grid-bottom-left div{
+//  margin-bottom: 10px;
+//}
+//.grid-bottom-left ul{
+//  list-style: none;
+//}
+//.grid-bottom-left li::before{
+//  content: "• ";
+//  color: red;
+//}
+//#annaPraktik {
+//  float: left;
+//  width: 40%;
+//  height: auto;
+//}
+//#yrkesHogskolan {
+//  width: 100%;
+//}
+//div li{
+//  margin-left: 20px;
+//}
+//#reklamVideo {
+//  width: 100%;
+//  background-color: #777620;
+//}
+// Troligtvis glömt att ta bort
+//.utbildningar {
+//  font-size: 120%;
+//  text-align: center;
+//}
+//.row {
+// Gör inget ännu
+//}
+//.col-1 {
+//  float: left;
+//  margin-bottom: 10px;
+//  width: 33%;
+//}
+//.courseImg img{
+//  width: 100%;
+//}
+//.courseText{
+//  font-size: 80%;
+//  display: none;
+//  //position: absolute;
+//  bottom: 0px;
+//  background-color: #00B252;
+//  color: white;
+//  text-align: start;
+//  //padding: 10px
+//}
+//.courseHeader{
+//  float: left;
+//  font-weight: bold;
+//}
+//.courseTitel{
+//
+//}
+//.courseStart{
+//  color: gray;
+//}
