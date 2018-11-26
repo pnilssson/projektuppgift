@@ -94,7 +94,7 @@ xhr.onload = function () {
         if (i == 1){
             x += '<p class="bold">' + responseobject.contactBold[0] + '</p>';
         }
-        else if (i == 5){
+        else if (i == 4){
             x += '<p class="bold">' + responseobject.contactBold[1] + '</p>';
         }
         x += '<p>' + responseobject.contactText[i] + '</p>';

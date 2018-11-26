@@ -1,0 +1,51 @@
+{
+  "kontaktHeader": "Kontakt",
+
+  "kontaktLinks":[
+    "mailto:vagledning.campus@molndal.se",
+    "tel:031-315 10 14",
+    "https://www.facebook.com/campusmolndal/"
+          ],
+  "kontaktPicture": [
+    "far fa-envelope",
+    "fas fa-phone",
+    "fab fa-facebook-f"
+  ],
+  "kontaktText": [
+    "Vägledning",
+    "031-315 10 14",
+    "Facebook"
+  ],
+  "findHeader": "Hitta oss",
+
+  "findLinks":[
+    "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA",
+    "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA",
+    "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA"
+  ],
+
+  "findText": [
+    "Krokslätts Fabriker 12A",
+    "431 37",
+    "Mölndal"
+  ],
+  "fastHeader" : "Snabblänkar",
+  "fastLinks":[
+    "#",
+    "https://campusmolndal.itslearning.com/",
+    "#",
+    "https://www.molndal.se/startsida/kommun-och-politik/insyn-och-paverkan/synpunkter-och-felanmalan.html"
+  ],
+
+  "fastText": [
+    "Ansökan",
+    "Itslearning",
+    "Felanmälan",
+    "Lediga jobb"
+  ]
+
+
+
+
+}
+
