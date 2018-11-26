@@ -1,0 +1,10 @@
+[26-Nov-2018 10:30:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/lvwtlqcr/public_html/projekt/php/db_connect.php on line 4
+[26-Nov-2018 10:42:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/lvwtlqcr/public_html/projekt/php/db_connect.php on line 4
+[26-Nov-2018 11:11:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/lvwtlqcr/public_html/projekt/php/db_connect.php on line 4
+[26-Nov-2018 11:15:37 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/lvwtlqcr/public_html/projekt/nyheter.php on line 26
+[26-Nov-2018 11:15:37 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lvwtlqcr/public_html/projekt/nyheter.php on line 26
+[26-Nov-2018 11:17:12 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/lvwtlqcr/public_html/projekt/nyheter.php on line 27
+[26-Nov-2018 11:17:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lvwtlqcr/public_html/projekt/nyheter.php on line 27
+[26-Nov-2018 11:20:19 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/lvwtlqcr/public_html/projekt/nyheter.php on line 27
+[26-Nov-2018 11:20:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lvwtlqcr/public_html/projekt/nyheter.php on line 27
+[26-Nov-2018 11:21:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/lvwtlqcr/public_html/projekt/php/db_connect.php on line 4

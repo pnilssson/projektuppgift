@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/nyheter.css">
 </head>
 <body>
 <nav class="navbar">
@@ -21,6 +22,34 @@
         <li><a href="#"><i class="fas fa-mobile-alt icon"></i>Kontakta oss</a></li>
     </ul>
 </nav>
+
+<div class="top-image"></div>
+<section class="nyheter-grid-container">
+
+    <div class="headline">
+        <h1>Nyheter</h1>
+    </div>
+
+</section>
+
+
+
+<?php
+/*
+require_once("db_connect.php");
+
+$connect = dbConnect();
+
+$sql = "SELECT * FROM news ORDER BY newsId DESC";
+$result = mysqli_query($connect, $sql);
+ while ($row = mysqli_fetch_assoc($result)){
+    echo "<article class='grid-news-$i'>";
+    echo "<img src='img/newsImages/".$row['newsImg']."'>";
+    echo "<h4>".$row['newsTitle']."</h4>";
+    echo "<p class='news-text'>".$row['newsText']."</p>";
+    echo "</article>";
+} */
+?>
 
 <footer class="footer">
     <ul>
@@ -46,7 +75,3 @@
 <script src="script/navbar-toggle.js"></script>
 </body>
 </html>
-
-
-<?php
-?>
