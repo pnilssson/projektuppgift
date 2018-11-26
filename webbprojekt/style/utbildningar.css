@@ -67,6 +67,10 @@ section {
   width: 100%;
 }
 
+.row {
+  text-align: center;
+}
+
 .col-1 {
   float: left;
   margin-bottom: 10px;
@@ -74,7 +78,10 @@ section {
 }
 
 .courseImg img {
-  width: 100%;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .courseText {
