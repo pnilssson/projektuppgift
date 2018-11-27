@@ -14,6 +14,17 @@ xhr1.onload = function () {
     }
     newfooter += '</ul>';
 
+
+    newfooter += '<ul>';
+    newfooter += '<h4>' + responseNews.fastHeader +'</h4>';
+
+    for (i in responseNews.fastLinks) {
+        newfooter+= '<li class="footer-item"><a href="' + responseNews.fastLinks[i] + '">' + responseNews.fastText[i] +'</a></li>';
+    }
+    newfooter += '</ul>';
+
+
+
     newfooter += '<ul>';
     newfooter += '<h4>' + responseNews.findHeader +'</h4>';
 
@@ -25,13 +36,7 @@ xhr1.onload = function () {
 
 
 
-    newfooter += '<ul>';
-    newfooter += '<h4>' + responseNews.fastHeader +'</h4>';
 
-    for (i in responseNews.fastLinks) {
-        newfooter+= '<li class="footer-item"><a href="' + responseNews.fastLinks[i] + '">' + responseNews.fastText[i] +'</a></li>';
-    }
-    newfooter += '</ul>';
 
 
 
