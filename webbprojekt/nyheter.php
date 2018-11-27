@@ -23,36 +23,36 @@
     </ul>
 </nav>
 
-<div class="top-image"></div>
-<section class="nyheter-grid-container">
+<div class="news-top-image"></div>
+<section class="news-grid-container">
 
     <div class="headline">
         <h1>Nyheter</h1>
     </div>
 
+    <?php
+
+    require_once("php/db_connect.php");
+
+    $connect = dbConnect();
+
+    $sql = "SELECT * FROM news ORDER BY newsId DESC";
+    $result = mysqli_query($connect, $sql);
+    $i = 1;
+    while($row = mysqli_fetch_assoc($result)){
+
+        echo "<article class='grids-news-$i'>";
+        echo "<img src='img/newsImages/".$row['newsImg']."'>";
+        echo "<h4>".$row['newsTitle']."</h4>";
+        echo "<p class='news-text'>".$row['newsText']."</p>";
+        echo "</article>";
+        $i++;
+        if ($i == 10){
+            break;
+        }
+    }
+    ?>
 </section>
-
-
-
-<?php
-require_once("db_connect.php");
-
-$connect = dbConnect();
-
-$sql = "SELECT * FROM news ORDER BY newsId DESC";
-$result = mysqli_query($connect, $sql);
-$i = 1;
-for($j = 0; $j < 9; $j++){
-    $row = mysqli_fetch_assoc($result);
-    echo "<article class='grid-news-$i'>";
-    echo "<img src='img/newsImages/".$row['newsImg']."'>";
-    echo "<h4>".$row['newsTitle']."</h4>";
-    echo "<p class='news-text'>".$row['newsText']."</p>";
-    echo "</article>";
-    $i++;
-}
-?>
-
 <footer class="footer" id="footer">
 
 </footer>
