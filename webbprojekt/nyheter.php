@@ -23,36 +23,37 @@
     </ul>
 </nav>
 
-<div class="top-image"></div>
-<section class="nyheter-grid-container">
+<div class="news-top-image"></div>
+<section class="news-grid-container">
 
     <div class="headline">
         <h1>Nyheter</h1>
     </div>
 
-</section>
-
-
-
 <?php
-require_once("db_connect.php");
+
+require_once("php/db_connect.php");
 
 $connect = dbConnect();
 
 $sql = "SELECT * FROM news ORDER BY newsId DESC";
 $result = mysqli_query($connect, $sql);
 $i = 1;
-for($j = 0; $j < 9; $j++){
-    $row = mysqli_fetch_assoc($result);
-    echo "<article class='grid-news-$i'>";
+while($row = mysqli_fetch_assoc($result)){
+
+    echo "<article class='grids-news'>";
     echo "<img src='img/newsImages/".$row['newsImg']."'>";
     echo "<h4>".$row['newsTitle']."</h4>";
-    echo "<p class='news-text'>".$row['newsText']."</p>";
+    echo "<p class='news-date'>".$row['newsDate']."</p>";
+    echo "<a href='#'><p class='news-text'>".$row['newsText']."</p></a>";
     echo "</article>";
     $i++;
+    if ($i == 5){
+        break;
+    }
 }
 ?>
-
+</section>
 <footer class="footer" id="footer">
 
 </footer>
