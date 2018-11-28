@@ -11,6 +11,7 @@
         echo "<article class='grid-news-$i'>";
         echo "<img src='img/newsImages/".$row['newsImg']."'>";
         echo "<h4>".$row['newsTitle']."</h4>";
+        echo "<p class='news-date'>".$row['newsDate']."</p>";
         echo "<p class='news-text'>".$row['newsText']."</p>";
         echo "</article>";
         $i++;

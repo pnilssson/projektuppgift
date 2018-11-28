@@ -16,30 +16,11 @@ html {
 
 .alignment {
   display: none;
-  position: sticky;
-  margin-top: -75px;
-  top: 150px;
-  margin-left: 1%;
-  z-index: 1;
-}
-.alignment ul {
-  margin: 5px;
-  padding: 0px;
-}
-.alignment li {
-  list-style-type: none;
-  margin: 10px;
-}
-.alignment a {
-  text-decoration: none;
-  color: black;
-}
-.alignment p :hover {
-  color: blue;
 }
 
-.bookmark h3 {
-  margin-top: 15px;
+.bookmark {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .bookmark a {
   text-decoration: none;
@@ -53,8 +34,8 @@ html {
   text-align: center;
 }
 .bookmark li {
-  margin: 10px;
   display: inline;
+  margin: 10px;
   list-style-type: none;
 }
 .bookmark li p {
@@ -63,11 +44,10 @@ html {
 }
 
 .java-text {
-  grid-area: gridtext;
-  padding-top: 100px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 50px;
+  background-color: white;
 }
 .java-text p {
   margin-top: 15px;
@@ -101,23 +81,65 @@ html {
 }
 /* Computer*/
 @media (min-width: 1132px) {
+  body {
+    background-color: rgba(231, 235, 235, 0.9);
+  }
+
   .div-container-java {
     display: grid;
     justify-content: space-around;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: ". gridbookmark gridbookmark gridbookmark ." "gridalignment . . . ." ". gridtext gridtext gridtext .";
+    grid-template-areas: "gridalignment test test test .";
   }
 
   .alignment {
+    border-radius: 2px;
     display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 10px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    top: 150px;
+    max-height: 290px;
+    max-width: 90%;
+    left: 10px;
+  }
+  .alignment ul {
+    margin: 0px 5px 5px 5px;
+    padding: 0px;
+  }
+  .alignment li {
+    list-style-type: none;
+  }
+  .alignment li p {
+    margin: 10px;
+  }
+  .alignment a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .alignment p :hover {
+    color: blue;
+  }
+
+  .test {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    grid-area: test;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 10px -2px rgba(0, 0, 0, 0.75);
   }
 
   .java-text {
-    margin-top: -300px;
+    margin-top: 10px;
   }
   .java-text div {
     padding-top: 160px;
     margin-top: -100px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .java-text div ul {
     margin-left: 15px;

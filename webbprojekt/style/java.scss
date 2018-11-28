@@ -12,41 +12,25 @@
 }
 
 html{
+
   scroll-behavior: smooth;
 }
+
 .alignment {
   display: none;
-  ul{
-    margin: 5px;
-    padding: 0px;
-
-  }
-  li{
-    list-style-type: none;
-    margin: 10px;
-  }
-  a{
-    text-decoration: none;
-    color: black;
-  }
-
-
-  p :hover{
-    color: blue ;
-  }
-  position: sticky;
-  margin-top: -75px;
-  top: 150px;
-
-  margin-left: 1%;
-  z-index: 1;
 
 
 }
 
 .bookmark{
+
+
+  margin-left: 15px;
+  margin-right: 15px;
+
+
   h3{
-    margin-top: 15px;
+
   }
   a{
 
@@ -66,8 +50,9 @@ html{
     text-align: center;
   }
   li{
-    margin: 10px;
     display: inline;
+    margin: 10px;
+
     list-style-type:none ;
     p{
       display: inline-block;
@@ -96,11 +81,11 @@ html{
       list-style-type: none;
     }
 
-  grid-area: gridtext;
-  padding-top: 100px;
+
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 50px;
+  background-color: white;
 
 }
 .bold{
@@ -136,31 +121,81 @@ html{
 }
 /* Computer*/
 @media (min-width: 1132px) {
-
+  body{
+    background-color: rgba(231,235,235,0.9);
+  }
   .div-container-java{
     display: grid;
     justify-content: space-around;
 
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-            '. gridbookmark gridbookmark gridbookmark .'
-            'gridalignment . . . .'
-            '. gridtext gridtext gridtext .';
+            'gridalignment test test test .';
 
   }
   .alignment {
+    border-radius: 2px;
     display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 10px -2px rgba(0,0,0,0.75);
+    position: sticky;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    top: 150px;
+
+
+    max-height: 290px;
+    max-width: 90%;
+    
+
+
+    left: 10px;
+
+    ul{
+      margin: 0px 5px 5px 5px;
+      padding: 0px;
+
+    }
+    li{
+      list-style-type: none;
+
+
+      p{
+
+        margin: 10px;
+      }
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      margin-bottom: 10px;
+    }
+
+
+    p :hover{
+      color: blue ;
+    }
 
   }
   .bookmark{
 
   }
+  .test{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    grid-area: test;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 10px -2px rgba(0,0,0,0.75);
+  }
   .java-text{
-    margin-top: -300px;
+  margin-top: 10px;
 
     div{
       padding-top: 160px;
       margin-top: -100px;
+      margin-left: 40px;
+      margin-right: 40px;
 
       ul{
         margin-left: 15px;
@@ -169,5 +204,6 @@ html{
     }
 
   }
+
 
 }

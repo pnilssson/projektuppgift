@@ -106,27 +106,11 @@
     <article class="grid-column-center-all">
         <h3>Nyheter</h3>
     </article>
-    <!--
-    <article class="grid-news-left">
-        <img src="img/news1.jpg">
-        <h4>Hur blir man en attraktiv arbetsgivare?</h4>
-    </article>
-    <article class="grid-news-center">
-        <img src="img/news2.jpg">
-        <h4>Hur funkar IT-projektledning inom offentliga sektorn?</h4>
-    </article>
-    <article class="grid-news-right">
-        <img src="img/news3.jpg">
-        <h4>Aktiveringspedagoger inom LSS genomför barnobservationer i utbildningssyfte</h4>
-    </article>
-    -->
     <?php
     include 'php/load_news.php';
     ?>
 </section>
-<footer class="footer" id="footer">
-
-</footer>
+<footer class="footer" id="footer"></footer>
 
 <script src="script/footer.js"></script>
 <script src="script/navbar-toggle.js"></script>

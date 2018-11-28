@@ -14,10 +14,12 @@ a:link{
   text-decoration: none;
   color: black;
 }
+
 // Grid
 .news-grid-container {
   //Fbackground-color: #2196F3;
   padding: 10px;
+
   img {
     width: 100%;
   }
@@ -37,8 +39,6 @@ a:link{
 
 /*Tablet*/
 @media (min-width: 768px) {
-
-
   .news-grid-container {
     display: grid;
     grid-column-gap: 10px;
@@ -61,6 +61,8 @@ a:link{
     grid-column: 2/5;
   }
 }
+
 /* Computer*/
 @media (min-width: 1132px) {
+
 }
