@@ -23,7 +23,10 @@ xhr.onload = function () {
         newContent += '<ul><li><h3>' +responseobject.alignmentHeader + '</h3></li>' + x + '</ul>';
         newContent += '</div>';
         x = "";
+
+
      // Div för bookmark
+    newContent +=  '<div class="test">';
     for (i in responseobject.bookmarkText) {
         x += '<li><p><a href="#' + responseobject.bookmarkLinks[i] + '">' + responseobject.bookmarkText[i] + '</a></p></li>';
     }
@@ -104,6 +107,7 @@ xhr.onload = function () {
     newContent += '<h3>' + responseobject.contactHeader + '</h3>';
     newContent += x;
 
+    newContent += '</div>';
     newContent += '</div>';
     newContent += '</div>';
 

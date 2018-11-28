@@ -30,27 +30,29 @@
         <h1>Nyheter</h1>
     </div>
 
-    <?php
-    require_once("php/db_connect.php");
+<?php
 
-    $connect = dbConnect();
+require_once("php/db_connect.php");
 
-    $sql = "SELECT * FROM news ORDER BY newsId DESC";
-    $result = mysqli_query($connect, $sql);
-    $i = 1;
-    while($row = mysqli_fetch_assoc($result)){
+$connect = dbConnect();
 
-        echo "<article class='grids-news-$i'>";
-        echo "<img src='img/newsImages/".$row['newsImg']."'>";
-        echo "<h4>".$row['newsTitle']."</h4>";
-        echo "<a href= <p class='news-text'>".$row['newsText']."</p>";
-        echo "</article>";
-        $i++;
-        if ($i == 10){
-            break;
-        }
+$sql = "SELECT * FROM news ORDER BY newsId DESC";
+$result = mysqli_query($connect, $sql);
+$i = 1;
+while($row = mysqli_fetch_assoc($result)){
+
+    echo "<article class='grids-news'>";
+    echo "<img src='img/newsImages/".$row['newsImg']."'>";
+    echo "<h4>".$row['newsTitle']."</h4>";
+    echo "<p class='news-date'>".$row['newsDate']."</p>";
+    echo "<a href='#'><p class='news-text'>".$row['newsText']."</p></a>";
+    echo "</article>";
+    $i++;
+    if ($i == 5){
+        break;
     }
-    ?>
+}
+?>
 </section>
 <footer class="footer" id="footer">
 
