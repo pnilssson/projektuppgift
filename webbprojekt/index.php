@@ -11,14 +11,14 @@
 </head>
 <body>
 <nav class="navbar">
-    <div class="mobile-logo"></div>
+    <a href="index.php"><div class="mobile-logo"></div></a>
     <div class="navbar-toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
     </div>
     <ul id="js-navbar">
         <li><a href="#"><i class="far fa-compass icon"></i>Studie- och yrkesväglednig</a></li>
         <li><a href="#"><i class="fas fa-book icon"></i>Dina studier</a></li>
-        <li><a href="#" class="desktop-logo"></a></li>
+        <li><a href="index.php" class="desktop-logo"></a></li>
         <li><a href="#"><i class="far fa-building icon"></i>Företag och organisationer</a></li>
         <li><a href="#"><i class="fas fa-mobile-alt icon"></i>Kontakta oss</a></li>
     </ul>
@@ -28,6 +28,19 @@
         <h3>Campus Mölndal</h3>
         <p>Campus Mölndal är en samlingsplats för all vuxenutbildning inom Mölndals stad. Hos oss kan du studera på alla nivåer - från kurser motsvarande grundskola, till eftergymnasial nivå i form av yrkeshögskola. Du kan också få råd, information och stöd i planering av dina studier av våra studie- och yrkesvägledare.</p>
     </div>
+    <article class="datum-desktop" id="js-datum-desktop">
+        <div class="dates-toggle" id="js-dates-toggle">
+            <i class="far fa-times-circle"></i>
+        </div>
+        <div class="dates" id="js-dates">
+            <h3>Viktiga Datum</h3>
+            <p class="index-year">2018:</p>
+            <p>Yrkeshögskola ansök senast 26/11. - IT-projektledare <a href="">ansök och läs mer här.</a></p>
+            <p class="index-year">2019:</p>
+            <p>Terminstart 7/1-2019</p>
+        </div>
+    </article>
+    <div class="main-container">
     <article class="grid-column-left">
         <h3>Utbildningar</h3>
     </article>
@@ -46,18 +59,6 @@
         <p>Skräddarsydda utbildningar för organisationer och företag.</p>
         </div>
             <div class="read-more-button"><a href="">Läs Mer</a></div>
-    </article>
-    <article class="grid-column-right datum-desktop">
-        <div class="dates-toggle" id="js-dates-toggle">
-            <i class="far fa-times-circle"></i>
-        </div>
-        <div id="js-dates">
-        <h3>Viktiga Datum</h3>
-        <p class="index-year">2018:</p>
-            <p>Yrkeshögskola ansök senast 26/11. - IT-projektledare <a href="">ansök och läs mer här.</a></p>
-        <p class="index-year">2019:</p>
-            <p>Terminstart 7/1-2019</p>
-        </div>
     </article>
     <article class="grid-column-left">
         <div class="course-image course-img3">
@@ -108,12 +109,16 @@
         <p class="index-year">2019:</p>
         <p>Terminstart 7/1-2019</p>
     </article>
-    <article class="grid-column-center-all">
+    <article class="grid-column-left">
         <h3>Nyheter</h3>
     </article>
-    <?php
-    include 'php/load_news.php';
-    ?>
+    <article class="index-news-container">
+        <?php
+            include 'php/load_news.php';
+        ?>
+        <div class="grid-column-all read-more-button"><a href="nyheter.php">Fler nyheter</a></div>
+    </article>
+    </div>
 </section>
 <footer class="footer" id="footer"></footer>
 
