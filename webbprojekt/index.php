@@ -48,11 +48,16 @@
             <div class="read-more-button"><a href="">Läs Mer</a></div>
     </article>
     <article class="grid-column-right datum-desktop">
+        <div class="dates-toggle" id="js-dates-toggle">
+            <i class="far fa-times-circle"></i>
+        </div>
+        <div id="js-dates">
         <h3>Viktiga Datum</h3>
         <p class="index-year">2018:</p>
             <p>Yrkeshögskola ansök senast 26/11. - IT-projektledare <a href="">ansök och läs mer här.</a></p>
         <p class="index-year">2019:</p>
             <p>Terminstart 7/1-2019</p>
+        </div>
     </article>
     <article class="grid-column-left">
         <div class="course-image course-img3">
@@ -114,6 +119,7 @@
 
 <script src="script/footer.js"></script>
 <script src="script/navbar-toggle.js"></script>
+<script src="script/dates-toggle.js"></script>
 <script src="script/index.js"></script>
 </body>
 </html>

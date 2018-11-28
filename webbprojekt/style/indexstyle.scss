@@ -197,6 +197,20 @@ body{
     display: none;
   }
 
+  .dates-toggle{
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 80%;
+    :hover{
+      transform: scale(1.2);
+      cursor: pointer;
+      color: $primary-blue;
+    }
+  }
+
+
+
   .top-image {
     margin-bottom: 15px;
     p {
