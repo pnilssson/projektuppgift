@@ -7,18 +7,27 @@ $secondary-blue: #70C4FF;
 body{
   background-color: #E7EBEB;
 }
-a:hover{
-  color: black;
-}
 a:link{
   text-decoration: none;
   color: black;
 }
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+p{
+  margin-bottom: 10px;
+}
+img:hover{
+    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
+}
+
 
 // Grid
 .news-grid-container {
   //Fbackground-color: #2196F3;
   padding: 10px;
+  margin: 20px 10px 30px 10px;
 
   img {
     width: 100%;
@@ -33,7 +42,8 @@ a:link{
 }
 .headline {
   font-size: 11px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -44,21 +54,28 @@ a:link{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(20px, 100px);
+    grid-template-rows: minmax(30px, 100px);
   }
 
   .grids-news {
     background-color: #FAFFFF;
     grid-column: 2/5;
     box-shadow: 0 1px 5px -2px rgba(0,0,0,0.75);
-    margin: 0px 20px 20px 20px;
-    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
     img {
-      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
+    img:hover{
+      box-shadow: 0 0 2px 1px rgb(0, 0, 0);
     }
   }
   .headline {
     grid-column: 2/5;
+    margin-bottom: 0px;
   }
 }
 
