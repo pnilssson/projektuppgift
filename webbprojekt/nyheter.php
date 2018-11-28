@@ -31,7 +31,6 @@
     </div>
 
     <?php
-
     require_once("php/db_connect.php");
 
     $connect = dbConnect();
@@ -44,7 +43,7 @@
         echo "<article class='grids-news-$i'>";
         echo "<img src='img/newsImages/".$row['newsImg']."'>";
         echo "<h4>".$row['newsTitle']."</h4>";
-        echo "<p class='news-text'>".$row['newsText']."</p>";
+        echo "<a href= <p class='news-text'>".$row['newsText']."</p>";
         echo "</article>";
         $i++;
         if ($i == 10){
