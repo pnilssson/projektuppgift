@@ -3,23 +3,14 @@ $body-font:font-family, 'Montserrat', sans-serif;
 $primary-blue: #0070F1;
 $secondary-blue: #70C4FF;
 
-#spaceTop {
-  margin-top: 130px;
-}
-section{
-  display: grid;
-}
 // Grid
 .grid-container{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas:
-          '. header header header .'
+          'header header header header header'
           '. bottomLeft bottomRight bottomRight .';
   //background-color: #2196F3;
-  padding: 10px;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
 }
 .grid-header{
   grid-area: header;
@@ -45,6 +36,7 @@ section{
 }
 .header img {
   width: 100%;
+  height: 400px;
 }
 h3{
   margin-top: 20px;
