@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/nyheter.css">
+    <script src="script/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 <nav class="navbar">
-    <div class="mobile-logo"></div>
+    <a href="index.php"><div class="mobile-logo"></div></a>
     <div class="navbar-toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
     </div>
     <ul id="js-navbar">
         <li><a href="#"><i class="far fa-compass icon"></i>Studie- och yrkesväglednig</a></li>
         <li><a href="#"><i class="fas fa-book icon"></i>Dina studier</a></li>
-        <li><a href="#" class="desktop-logo"></a></li>
+        <li><a href="index.php" class="desktop-logo"></a></li>
         <li><a href="#"><i class="far fa-building icon"></i>Företag och organisationer</a></li>
         <li><a href="#"><i class="fas fa-mobile-alt icon"></i>Kontakta oss</a></li>
     </ul>
@@ -29,30 +30,10 @@
     <div class="headline">
         <h1>Nyheter</h1>
     </div>
+    <?php
+    include 'php/load_big_news.php';
+    ?>
 
-<?php
-
-require_once("php/db_connect.php");
-
-$connect = dbConnect();
-
-$sql = "SELECT * FROM news ORDER BY newsId DESC";
-$result = mysqli_query($connect, $sql);
-$i = 1;
-while($row = mysqli_fetch_assoc($result)){
-
-    echo "<article class='grids-news'>";
-    echo "<img src='img/newsImages/".$row['newsImg']."'>";
-    echo "<h4>".$row['newsTitle']."</h4>";
-    echo "<p class='news-date'>".$row['newsDate']."</p>";
-    echo "<a href='#'><p class='news-text'>".$row['newsText']."</p></a>";
-    echo "</article>";
-    $i++;
-    if ($i == 5){
-        break;
-    }
-}
-?>
 </section>
 <footer class="footer" id="footer">
 
@@ -60,5 +41,6 @@ while($row = mysqli_fetch_assoc($result)){
 
 <script src="script/footer.js"></script>
 <script src="script/navbar-toggle.js"></script>
+<script src="script/nyheter.js"></script>
 </body>
 </html>
