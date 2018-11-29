@@ -48,7 +48,7 @@ xhr.onload = function () {
 
     x = "";
 
-    newContent += '<img class="testbild" src="img/aktiveringspedagogobrukare855x450kimsvensson.jpg">'
+   // newContent += '<img class="testbild" src="img/aktiveringspedagogobrukare855x450kimsvensson.jpg">'
     newContent += '</div>';
      // Div för fast-facts
     for (i in responseobject.factText) {
@@ -90,7 +90,7 @@ xhr.onload = function () {
 
     newContent += '</div>';
 
-    newContent += '<img src="img/programmering.png">';
+  //  newContent += '<img src="img/programmering.png">';
 
 
     //Div fär application
