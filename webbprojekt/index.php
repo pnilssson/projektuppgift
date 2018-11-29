@@ -25,8 +25,9 @@
 </nav>
 <section class="index-grid-container">
     <div class="grid-column-all top-image">
-        <h3>Campus Mölndal</h3>
-        <p>Campus Mölndal är en samlingsplats för all vuxenutbildning inom Mölndals stad. Hos oss kan du studera på alla nivåer - från kurser motsvarande grundskola, till eftergymnasial nivå i form av yrkeshögskola. Du kan också få råd, information och stöd i planering av dina studier av våra studie- och yrkesvägledare.</p>
+        <h3>Du är efterlängtad!</h3>
+        <p>Campus Mölndal erbjuder attraktiva vuxenutbildningar. Hos oss kan du studera på alla nivåer, från kurser motsvarande grundskola till eftergymnasial nivå i form av yrkeshögskola. Vi hjälper dig att hitta rätt utbildning.</p>
+        <p>Välkommen med din ansökan!</p>
     </div>
     <article class="datum-desktop" id="js-datum-desktop">
         <div class="dates-toggle" id="js-dates-toggle">
