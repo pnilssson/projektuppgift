@@ -16,6 +16,14 @@ xhr1.onload = function () {
 
 
     newfooter += '<ul>';
+    newfooter += '<h4>' + responseNews.findHeader +'</h4>';
+
+    for (i in responseNews.findLinks) {
+        newfooter+= '<li class="footer-item"><a href="' + responseNews.findLinks[i] + '">' + responseNews.findText[i] +'</a></li>';
+    }
+    newfooter += '</ul>';
+
+    newfooter += '<ul>';
     newfooter += '<h4>' + responseNews.fastHeader +'</h4>';
 
     for (i in responseNews.fastLinks) {
@@ -25,13 +33,7 @@ xhr1.onload = function () {
 
 
 
-    newfooter += '<ul>';
-    newfooter += '<h4>' + responseNews.findHeader +'</h4>';
 
-    for (i in responseNews.findLinks) {
-        newfooter+= '<li class="footer-item"><a href="' + responseNews.findLinks[i] + '">' + responseNews.findText[i] +'</a></li>';
-    }
-    newfooter += '</ul>';
 
 
 
