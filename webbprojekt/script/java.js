@@ -45,7 +45,10 @@ xhr.onload = function () {
     newContent += '<div class="java-context" id="context">';
     newContent += '<h3>' + responseobject.mainHeader + '</h3>';
     newContent += x;
+
     x = "";
+
+    newContent += '<img class="testbild" src="img/aktiveringspedagogobrukare855x450kimsvensson.jpg">'
     newContent += '</div>';
      // Div för fast-facts
     for (i in responseobject.factText) {
@@ -84,14 +87,17 @@ xhr.onload = function () {
     newContent += '<h3>' + responseobject.appropriateHeader + '</h3>';
     newContent += x;
     x = "";
+
     newContent += '</div>';
+
+    newContent += '<img src="img/programmering.png">';
 
 
     //Div fär application
     newContent += '<div class="java-application"  id="java-application">';
     newContent += '<h3>' + responseobject.applicationHeader + '</h3>';
     newContent += '<p>' + responseobject.applicationText + '</p>';
-    newContent += '</div>';
+
     //Div för contact
     for (i in responseobject.contactText) {
         if (i == 1){
@@ -103,6 +109,8 @@ xhr.onload = function () {
         x += '<p>' + responseobject.contactText[i] + '</p>';
 
     }
+
+    newContent += '</div>';
     newContent += '<div class="java-contact"  id="java-contact">';
     newContent += '<h3>' + responseobject.contactHeader + '</h3>';
     newContent += x;

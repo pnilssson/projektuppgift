@@ -15,6 +15,10 @@ html{
 
   scroll-behavior: smooth;
 }
+img{
+  margin-left: -20px;
+  width: 108%;
+}
 
 .alignment {
   display: none;
@@ -103,6 +107,19 @@ html{
 
 /*Tablet*/
 @media (min-width: 768px ) {
+  body{
+    background-color: rgba(231,235,235,0.9);
+
+  }
+  .div-container-java{
+    display: grid;
+    justify-content: space-around;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            '. test test test .';
+
+  }
   .test{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -110,19 +127,26 @@ html{
 
   }
   .test{
-  display: grid;
-
-
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas:
-
-          'gridbookmark  gridbookmark gridbookmark gridbookmark gridbookmark '
-                          '. javatext javatext javatext .';
-
-
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    grid-area: test;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 10px -2px rgba(0,0,0,0.75);
+    border-radius: 2px;
+    img{
+      margin-left: auto;
+      margin-right: auto;
+     border: black;
+      border-style: solid;
+      border: 2px;
+      width: 100%;
+    }
 
 
 }
+
   .alignment {
 
   }
@@ -134,10 +158,9 @@ html{
 @media (min-width: 1132px) {
   body{
     background-color: rgba(231,235,235,0.9);
+
   }
-  .test{
-    display: block;
-  }
+
   .div-container-java{
     display: grid;
     justify-content: space-around;
@@ -199,6 +222,11 @@ html{
 
   }
   .test{
+    img{
+      margin-left: -55px;
+       width: 117%;
+     }
+    display: block;
     margin-top: 10px;
     margin-bottom: 20px;
     grid-area: test;
@@ -222,6 +250,7 @@ html{
     }
 
   }
+
 
 
 }
