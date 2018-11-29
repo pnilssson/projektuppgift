@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat");
-body {
+html, body {
   background-color: #FAFFFF;
+  overflow-x: hidden;
 }
 
 .index-grid-container h3 {
@@ -139,9 +140,8 @@ body {
 }
 
 /* TABLETS */
-/* DESKTOP */
-@media (min-width: 1132px) {
-  body {
+@media (min-width: 768px) {
+  html, body {
     background-color: #E7EBEB;
   }
 
@@ -215,26 +215,8 @@ body {
     grid-row: span 3;
   }
 
-  .datum-desktop {
-    display: block;
-    position: sticky;
-    top: 160px;
-    grid-column: 9/11;
-    grid-row: 2/span 2;
-    max-height: 350px;
-    background-color: #FAFFFF;
-    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
-    padding: 0 10px 0 10px;
-  }
-  .datum-desktop h4 {
-    margin-top: 15px;
-  }
-  .datum-desktop li {
-    margin-top: 10px;
-  }
-
   .datum-mobile {
-    display: none;
+    grid-column: 1/11;
   }
 
   .dates-toggle {
@@ -263,6 +245,30 @@ body {
   .top-image h3 {
     top: 40%;
     margin: 0 40% 0 5%;
+  }
+}
+/* DESKTOP */
+@media (min-width: 1132px) {
+  .datum-desktop {
+    display: block;
+    position: sticky;
+    top: 160px;
+    grid-column: 9/11;
+    grid-row: 2/span 2;
+    max-height: 350px;
+    background-color: #FAFFFF;
+    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+    padding: 0 10px 0 10px;
+  }
+  .datum-desktop h4 {
+    margin-top: 15px;
+  }
+  .datum-desktop li {
+    margin-top: 10px;
+  }
+
+  .datum-mobile {
+    display: none;
   }
 }
 
