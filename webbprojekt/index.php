@@ -36,7 +36,7 @@
         <div class="dates" id="js-dates">
             <h3>Viktiga Datum</h3>
             <p class="index-year">2018:</p>
-            <p>Yrkeshögskola ansök senast 26/11. - IT-projektledare <a href="">ansök och läs mer här.</a></p>
+            <p>Yrkeshögskola ansök senast 26/11. IT-projektledare <a href="">Ansök och läs mer här.</a></p>
             <p class="index-year">2019:</p>
             <p>Terminstart 7/1-2019</p>
         </div>
