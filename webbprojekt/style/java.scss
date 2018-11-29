@@ -29,8 +29,8 @@ img{
 .bookmark{
 
 
-  margin-left: 15px;
-  margin-right: 15px;
+
+  text-align: center;
 
 
   h3{
@@ -115,9 +115,9 @@ img{
     display: grid;
     justify-content: space-around;
 
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-areas:
-            '. test test test .';
+            '. test test test test test test test test .';
 
   }
   .test{
@@ -222,11 +222,21 @@ img{
 
   }
   .test{
+
+
+    display: grid;
+
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            '. gridbookmark gridbookmark gridbookmark .'
+            'javatext javatext javatext javatext javatext';
+
     img{
       margin-left: -55px;
-       width: 117%;
+       width: 100%;
      }
-    display: block;
+
     margin-top: 10px;
     margin-bottom: 20px;
     grid-area: test;
