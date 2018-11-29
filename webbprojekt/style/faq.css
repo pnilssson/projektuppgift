@@ -9,7 +9,7 @@ section {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: ". header header header ." ". left center right ." ". bottomLeft bottomRight bottomRight .";
+  grid-template-areas: ". header header header ." ". bottomLeft bottomRight bottomRight .";
   padding: 10px;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -17,18 +17,6 @@ section {
 
 .grid-header {
   grid-area: header;
-}
-
-.grid-column-left {
-  grid-area: left;
-}
-
-.grid-column-center {
-  grid-area: center;
-}
-
-.grid-column-right {
-  grid-area: right;
 }
 
 .grid-bottom-left {
