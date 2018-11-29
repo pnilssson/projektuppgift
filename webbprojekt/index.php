@@ -51,7 +51,7 @@
         <p>Eftergymnasiala och kvalificerade yrkesutbildningar utformade efter arbetsmarknadens behov.</p>
         </div>
         </a>
-        <div class="read-more-button"><a href="utbildningar.html">Läs Mer</a></div>
+        <a href="utbildningar.html"><div class="read-more-button">Läs Mer</div></a>
     </article>
     <article class="grid-column-center">
         <div class="course-image course-img2">
@@ -116,8 +116,10 @@
         <?php
             include 'php/load_news.php';
         ?>
-        <div class="grid-column-all read-more-button"><a href="nyheter.php">Fler nyheter</a></div>
     </article>
+        <article class="grid-column-center-all">
+            <a href="nyheter.php"><div class="grid-column-all read-more-button">Fler nyheter</div></a>
+        </article>
     </div>
 </section>
 <footer class="footer" id="footer"></footer>
