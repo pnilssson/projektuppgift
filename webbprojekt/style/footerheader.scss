@@ -74,6 +74,13 @@ $secondary-blue: #70C4FF;
   i {
     margin-right: 10px;
   }
+  .molndallogo{
+    background: url("../img/molndallogo.png");
+    display: inline-block;
+    width: 110px;
+    height: 114px;
+
+  }
 }
 /* TABLETS */
 @media (min-width: 768px) {
@@ -105,6 +112,8 @@ $secondary-blue: #70C4FF;
     }
     ul {
       display: flex;
+      margin-left: auto;
+      margin-right: auto;
     }
     li {
       margin: 15px 15px 15px 15px;

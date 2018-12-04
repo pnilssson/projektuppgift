@@ -6,8 +6,12 @@ xhr1.onload = function () {
 
     var newfooter = '';
 
+    newfooter += '<ul><a class="molndallogo" href="https://www.molndal.se/"></a></ul>';
+
     newfooter += '<ul>';
+
     newfooter += '<h4>' + responseNews.kontaktHeader +'</h4>';
+
 
     for (i in responseNews.kontaktLinks) {
         newfooter+= '<li class="footer-item"><a' + responseNews.kontaktLinks[i] + '><i class="' + responseNews.kontaktPicture[i] + '"></i>' + responseNews.kontaktText[i] +'</a></li>';

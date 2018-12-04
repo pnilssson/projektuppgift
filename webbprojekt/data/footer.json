@@ -1,4 +1,7 @@
 {
+
+  "moldalLogo": "molndallogo.png",
+
   "kontaktHeader": "Kontakt",
 
   "kontaktLinks":[
@@ -20,14 +23,12 @@
 
   "findLinks":[
     "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA",
-    "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA",
-    "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA"
+    "https://www.google.se/maps/place/G%C3%B6teborgsv%C3%A4gen+19,+431+30+M%C3%B6lndal/@57.6578523,12.0128957,17z/data=!3m1!4b1!4m5!3m4!1s0x464ff23150bf7c3b:0x72b61520428841c9!8m2!3d57.6578494!4d12.0150897"
   ],
 
   "findText": [
-    "Krokslätts Fabriker 12A",
-    "431 37",
-    "Mölndal"
+    "Campus Mölndal Krokslätt",
+    "Campus Mölndal Möllan"
   ],
   "fastHeader" : "Snabblänkar",
   "fastLinks":[
