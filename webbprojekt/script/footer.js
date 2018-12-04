@@ -14,7 +14,7 @@ xhr1.onload = function () {
 
 
     for (i in responseNews.kontaktLinks) {
-        newfooter+= '<li class="footer-item"><a' + responseNews.kontaktLinks[i] + '><i class="' + responseNews.kontaktPicture[i] + '"></i>' + responseNews.kontaktText[i] +'</a></li>';
+        newfooter+= '<li class="footer-item"><a href="' + responseNews.kontaktLinks[i] + '"><i class="' + responseNews.kontaktPicture[i] + '"></i>' + responseNews.kontaktText[i] +'</a></li>';
     }
     newfooter += '</ul>';
 

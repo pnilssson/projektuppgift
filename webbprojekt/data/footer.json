@@ -8,7 +8,7 @@
     "mailto:vagledning.campus@molndal.se",
     "tel:031-315 10 14",
     "https://www.facebook.com/campusmolndal/"
-          ],
+  ],
   "kontaktPicture": [
     "far fa-envelope",
     "fas fa-phone",
@@ -32,7 +32,7 @@
   ],
   "fastHeader" : "Snabblänkar",
   "fastLinks":[
-    "#",
+    "https://apply.yh-antagning.se/Application/Initiate?educationProviderId=83f466c7-d169-4ea6-8e07-e3ceabf6b628&admissionRoundId=de1d00a9-6285-4736-908c-5c1f644d4b5c&educationId=d7897601-930f-4688-a54e-60e55f353932",
     "https://campusmolndal.itslearning.com/",
     "https://www.molndal.se/startsida/kommun-och-politik/insyn-och-paverkan/synpunkter-och-felanmalan.html",
     "#"
