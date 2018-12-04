@@ -1,5 +1,5 @@
 body {
-  background-color: #E7EBEB;
+  background-color: #FAFFFF;
 }
 
 a:link {
@@ -20,12 +20,44 @@ img:hover {
   box-shadow: 0 0 2px 1px black;
 }
 
+.read-more {
+  border: 2px #0070F1 solid;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 7px;
+  text-align: center;
+  font-family: font-family, "Merriweather", serif;
+  color: #FAFFFF;
+  background-color: #0070F1;
+  transition: all 0.2s;
+}
+.read-more a {
+  color: #FAFFFF;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: #FAFFFF;
+  color: #0070F1;
+  cursor: pointer;
+}
+
+.read-more:hover a {
+  color: #0070F1;
+}
+
 .news-grid-container {
+  background-color: #FAFFFF;
   padding: 10px;
-  margin: 20px 10px 30px 10px;
+  margin: 20px 10px 10px 10px;
 }
 .news-grid-container img {
   width: 100%;
+  height: auto;
+}
+
+.grids-news {
+  margin-bottom: 20px;
 }
 
 .news-top-image {
@@ -38,12 +70,17 @@ img:hover {
 .headline {
   font-size: 11px;
   padding: 10px 10px 0px 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /*Tablet*/
 @media (min-width: 768px) {
+  body {
+    background-color: #E7EBEB;
+  }
+
   .news-grid-container {
+    background-color: #E7EBEB;
     display: grid;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -60,10 +97,7 @@ img:hover {
     padding: 10px 10px 0px 10px;
   }
   .grids-news img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    width: 100%;
   }
   .grids-news img:hover {
     box-shadow: 0 0 2px 1px black;
@@ -78,7 +112,8 @@ img:hover {
     background-color: #FAFFFF;
     box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
   }
+
+  /* Computer*/
 }
-/* Computer*/
 
 /*# sourceMappingURL=nyheter.css.map */

@@ -26,7 +26,7 @@
 <section class="index-grid-container">
     <div class="grid-column-all top-image">
         <h3>Du är efterlängtad!</h3>
-        <p>Campus Mölndal erbjuder attraktiva vuxenutbildningar. Hos oss kan du studera på alla nivåer, från kurser motsvarande grundskola till eftergymnasial nivå i form av yrkeshögskola. Vi hjälper dig att hitta rätt utbildning.</p>
+        <p>Campus Mölndal erbjuder attraktiva vuxenutbildningar. Hos oss kan du studera på alla nivåer, från kurser motsvarande grundskola till eftergymnasial nivå i form av yrkeshögskola. Våra studie- och yrkesvägledare hjälper dig att hitta rätt utbildning.</p>
         <p>Välkommen med din ansökan!</p>
     </div>
     <article class="datum-desktop" id="js-datum-desktop">
@@ -35,10 +35,11 @@
         </div>
         <div class="dates" id="js-dates">
             <h3>Viktiga Datum</h3>
-            <p class="index-year">2018:</p>
-            <p>Yrkeshögskola ansök senast 26/11. IT-projektledare <a href="">Ansök och läs mer här.</a></p>
-            <p class="index-year">2019:</p>
-            <p>Terminstart 7/1-2019</p>
+            <p class="index-year">2018</p>
+            <p>Ansök till IT-projektledare senast 26/11</p>
+            <p><a href="">Läs mer och ansök här</a></p>
+            <p class="index-year">2019</p>
+            <p>Terminstart för utbildningar 7 januari</p>
         </div>
     </article>
     <div class="main-container">

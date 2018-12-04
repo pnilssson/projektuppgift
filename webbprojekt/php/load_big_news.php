@@ -14,6 +14,7 @@ while($row = mysqli_fetch_assoc($result)){
     echo "<h4>".$row['newsTitle']."</h4>";
     echo "<p class='news-date'>".$row['newsDate']."</p>";
     echo "<a href='#'><p class='news-text'>".$row['newsText']."</p></a>";
+    echo "<a href='#'><p class='read-more'>Läs Mer</a></p>";
     echo "</article>";
     $i++;
     if ($i == 5){

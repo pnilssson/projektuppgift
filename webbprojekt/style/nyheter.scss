@@ -3,9 +3,8 @@ $body-font:font-family, 'Montserrat', sans-serif;
 $primary-blue: #0070F1;
 $secondary-blue: #70C4FF;
 
-
 body{
-  background-color: #E7EBEB;
+  background-color: #FAFFFF;
 }
 a:link{
   text-decoration: none;
@@ -21,18 +20,41 @@ p{
 img:hover{
     box-shadow: 0 0 2px 1px rgb(0, 0, 0);
 }
-
-
+.read-more{
+  border: 2px #0070F1 solid;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 7px;
+  text-align: center;
+  font-family: font-family, "Merriweather", serif;
+  color: #FAFFFF;
+  background-color: #0070F1;
+  transition: all 0.2s;
+  a {
+    color: #FAFFFF;
+    text-decoration: none;
+  }
+}
+.read-more:hover{
+  background-color: #FAFFFF;
+  color: #0070F1;
+  cursor: pointer;
+}
+.read-more:hover a {
+  color: #0070F1;
+}
 // Grid
 .news-grid-container {
-  //Fbackground-color: #2196F3;
+  background-color: #FAFFFF;
   padding: 10px;
-  margin: 20px 10px 30px 10px;
-
+  margin: 20px 10px 10px 10px;
   img {
     width: 100%;
+    height: auto;
   }
-
+}
+.grids-news{
+  margin-bottom: 20px;
 }
 .news-top-image {
   background: url("../img/newsImages/newspaper1.jpg") no-repeat center;
@@ -43,20 +65,24 @@ img:hover{
 .headline {
   font-size: 11px;
   padding: 10px 10px 0px 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
 /*Tablet*/
 @media (min-width: 768px) {
+
+  body{
+    background-color: #E7EBEB;
+  }
   .news-grid-container {
+    background-color: #E7EBEB;
     display: grid;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: minmax(30px, 100px);
   }
-
   .grids-news {
     background-color: #FAFFFF;
     grid-column: 2/5;
@@ -65,10 +91,7 @@ img:hover{
     margin: 0px 0px 10px 0px;
     padding: 10px 10px 0px 10px;
     img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 70%;
+      width: 100%;
     }
     img:hover{
       box-shadow: 0 0 2px 1px rgb(0, 0, 0);
@@ -83,9 +106,8 @@ img:hover{
     background-color: #FAFFFF;
     box-shadow: 0 1px 5px -2px rgba(0,0,0,0.75);
   }
-}
 
 /* Computer*/
 @media (min-width: 1132px) {
 
-}
+}}

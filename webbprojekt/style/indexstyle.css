@@ -57,7 +57,7 @@ html, body {
 }
 
 .top-image {
-  background: url("../img/campus-entry-400-dark.jpg") no-repeat center;
+  background: url("../img/campus-house-400-dark.jpg") no-repeat center;
   height: 400px;
   box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
   color: #FAFFFF;
@@ -68,6 +68,7 @@ html, body {
   top: 20%;
   margin: 0 20% 0 5%;
   padding: 10px;
+  font-size: 16px;
 }
 
 .top-image h3 {
