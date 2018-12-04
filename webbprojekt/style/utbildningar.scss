@@ -2,24 +2,26 @@ $header-font: font-family, 'Merriweather', serif;
 $body-font:font-family, 'Montserrat', sans-serif;
 $primary-blue: #0070F1;
 $secondary-blue: #70C4FF;
-
+/* MOBILE */
 body {
-  background-color: #E7EBEB;
+  background-color: #FAFFFF;
 }
-
-#spaceTop img {
-  width: 100%;
-  height: 400px;
+section {
+  margin: 0 10px 0 10px;
 }
-
-section{
-  display: grid;
+.yhStart {
+  h3{
+    margin: 20px 0 20px 0;
+  }
+  h4{
+    margin: 15px 0 15px 0;
+  }
 }
-
 .read-more-button {
   border: 2px #0070F1 solid;
   border-radius: 3px;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 7px;
   text-align: center;
   font-family: font-family, "Merriweather", serif;
@@ -31,179 +33,26 @@ section{
     text-decoration: none;
   }
 }
-
+.button-link {
+  text-decoration: none;
+}
 .read-more-button:hover {
   background-color: #FAFFFF;
   color: #0070F1;
   cursor: pointer;
 }
-
 .read-more-button:hover a {
   color: #0070F1;
 }
-
-/* Computer*/
-@media (min-width: 1132px) and (max-width: 1920px){
-  .grid-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-areas:
-            '. header header header .'
-            '. center center center .'
-            '. bottom bottom bottom .';
-    padding: 10px;
-  }
-  .grid-header{
-    grid-area: header;
-    background-color: #ffffff;
-    border-color: #ffffff;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
-    margin-bottom: 10px;
-  }
-  .grid-bottom-left{
-    grid-area: center;
-    background-color: #ffffff;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
-    margin-bottom: 10px;
-  }
-  .grid-bottom-right{
-    grid-area: bottom;
-    background-color: #ffffff;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
-    margin-bottom: 10px;
-  }
+.utb-top-image{
+  background: url("../img/campus-entry-400.jpg") no-repeat center;
+  height: 400px;
+  box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+  color: #FAFFFF;
 }
-
-/*Tablet*/
-@media (min-width: 768px){
-  .grid-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-areas:
-            '. header header header .'
-            '. center center center .'
-            '. bottom bottom bottom .';
-    padding: 10px;
-  }
-  .grid-header{
-    grid-area: header;
-    margin-bottom: 10px;
-    background-color: #ffffff;
-  }
-  .grid-bottom-left{
-    grid-area: center;
-    background-color: #ffffff;
-  }
-  .grid-bottom-right{
-    grid-area: bottom;
-    background-color: #ffffff;
-  }
-}
-
-
-/*Phone*/
-@media (max-width: 768px){
-  .grid-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-areas:
-            'header'
-            'center'
-            'bottom .';
-    padding: 10px;
-    grid-row-gap: 0px;
-    grid-column-gap: 0px;
-  }
-  .grid-header{
-    grid-area: header;
-    margin-bottom: 10px;
-    background-color: #ffffff;
-    height: auto;
-  }
-  .grid-bottom-left{
-    grid-area: center;
-    background-color: #ffffff;
-    height: 400px;
-  }
-  .grid-bottom-right{
-    grid-area: bottom;
-    background-color: #ffffff;
-    height: auto;
-  }
-}
-
-// Grid
-
-.grid-bottom-left div{
-  margin-bottom: 10px;
-}
-.grid-bottom-left ul{
-  list-style: none;
-}
-.grid-bottom-left li::before{
-  content: "• ";
-  color: red;
-}
-.grid-bottom-right div{
-  margin-bottom: 10px;
-}
-// Grid ovanför
-
-
-
-// grid-header
 .header {
   margin: 10px 20px 10px 20px;
 }
-.header img {
-  width: 100%;
-}
-// Troligtvis glömt att ta bort
-//.utbildningar {
-//  font-size: 120%;
-//  text-align: center;
-//}
-.row {
-  // Gör inget ännu
-  text-align: center;
-}
-.col-1 {
-  float: left;
-  margin-bottom: 10px;
-  width: 33%;
-}
-.courseImg img{
-  width: 96%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-.courseText{
-  //position: absolute;
-  display: none;
-  background-color: #FAFFFF;
-  color: black;
-  text-align: start;
-  margin-left: 10px;
-  margin-top: 5px;
-}
-.courseHeader{
-  text-align: left;
-  margin-left: 10px;
-  font-weight: bold;
-}
-.courseTitel{
-
-}
-.courseStart{
-  color: gray;
-}
-// grid-header ovanför
-
-// grid-bottom-left
 div li{
   margin-left: 20px;
 }
@@ -211,7 +60,6 @@ div li{
   width: 100%;
   background-color: #777620;
 }
-
 // grid-bottom-right
 #annaPraktik {
   float: right;
@@ -220,4 +68,87 @@ div li{
 }
 #yrkesHogskolan {
   width: 100%;
+  margin: 10px 0 10px 0;
+}
+.courseText{
+  display: none;
+}
+.imageBig {
+  height: 120px;
+  box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+  color: #FAFFFF;
+  text-decoration: none;
+  img {
+    filter: brightness(80%);
+  }
+  h4 {
+    position: relative;
+    top: 10%;
+    margin: 0 5% 0 5%;
+  }
+  p {
+    position: relative;
+    top: 10%;
+    margin: 0 5% 0 5%;
+  }
+}
+.imageBig1 { background: url("../img/YH_IT-projektledare_header_855x450.jpg") no-repeat center ; }
+.imageBig2 { background: url("../img/aktiveringspedagogobrukare855x450kimsvensson.jpg") no-repeat center; }
+.imageBig3 { background: url("../img/programmerareiarbete855x450okandfotokoptbild.jpg") no-repeat center; }
+.imageBig4 { background: url("../img/ateaanställdYH855x450kimsvensson.jpg") no-repeat center; }
+.imageBig5 { background: url("../img/bildereleverSFI-YH855x450kimsvensson.jpg") no-repeat center; }
+.imageBig6 { background: url("../img/handsombrläddrar855x450kimsvensson.jpg") no-repeat center; }
+/*Tablet*/
+@media (min-width: 768px){
+  body {
+    background-color: #E7EBEB;
+  }
+  .read-more-button {
+    margin-bottom: 0;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            'headerimg headerimg headerimg headerimg headerimg'
+             '. header header header .'
+            '. center center center .'
+            '. bottom bottom bottom .';
+    padding: 10px;
+  }
+  .grid-header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-area: header;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+    padding: 10px 10px 10px 10px;
+  }
+  .col-header-left {
+    grid-column: 1 / 2;
+  }
+  .col-header-right {
+    grid-column: 2 / 3;
+  }
+  .grid-bottom-left{
+    grid-area: center;
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+  }
+  .grid-bottom-right{
+    grid-area: bottom;
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+  }
+}
+/* Computer*/
+@media (min-width: 1132px){
 }
