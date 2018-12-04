@@ -10,21 +10,65 @@
 .div-container-java li{
   margin-top: 10px;
 }
+.bookmark-javatext{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 html{
 
   scroll-behavior: smooth;
 }
+.bookmark-javatext1{
+  background: url("../img/java-programmering.png") no-repeat 25%;
+}
 img{
-  margin-left: -20px;
+
   width: 108%;
 }
 
+.grid-img-text{
+
+  grid-column: 2 / 3;
+  h3{
+    margin-top: 30px;
+  }
+
+}
 .alignment {
   display: none;
 
 
 }
+
+.read-more-button {
+  border: 2px #0070F1 solid;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 7px;
+  width: 100%;
+  text-align: center;
+  font-family: font-family, "Merriweather", serif;
+  color: #FAFFFF;
+  background-color: #0070F1;
+  transition: all 0.2s;
+  a {
+    color: #FAFFFF;
+    text-decoration: none;
+  }
+}
+
+
+.read-more-button:hover {
+  background-color: #FAFFFF;
+  color: #0070F1;
+  cursor: pointer;
+}
+
+.read-more-button:hover a {
+  color: #0070F1;
+}
+
 
 .bookmark{
 
@@ -76,7 +120,8 @@ img{
     margin-top: 15px;
   }
 
-  div {
+  .information {
+    margin-left: 15px;
     padding-top: 75px;
     margin-top: -20px;
   }
@@ -87,8 +132,7 @@ img{
     }
 
 
-  margin-left: 15px;
-  margin-right: 15px;
+
   margin-bottom: 50px;
   background-color: white;
 
@@ -117,21 +161,19 @@ img{
 
     grid-template-columns: repeat(10, 1fr);
     grid-template-areas:
-            '. test test test test test test test test .';
+            '. bookmark-javatext bookmark-javatext bookmark-javatext bookmark-javatext bookmark-javatext bookmark-javatext bookmark-javatext bookmark-javatext .';
 
   }
-  .test{
+  .bookmark-javatext{
     margin-top: 10px;
     margin-bottom: 20px;
-    grid-area: test;
+    grid-area: bookmark-javatext;
 
   }
-  .test{
-    padding-left: 20px;
-    padding-right: 20px;
+  .bookmark-javatext{
     margin-top: 10px;
     margin-bottom: 20px;
-    grid-area: test;
+    grid-area: bookmark-javatext;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 1px 10px -2px rgba(0,0,0,0.75);
     border-radius: 2px;
@@ -141,7 +183,7 @@ img{
      border: black;
       border-style: solid;
       border: 2px;
-      width: 100%;
+
     }
 
 
@@ -150,6 +192,23 @@ img{
   .alignment {
 
   }
+  .grid-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+  }
+  .bookmark-javatextbild{
+    grid-column: 1 / 2;
+  }.courses-img{
+     margin-top: 10px;
+
+     width: 100%;
+     margin-left: 0px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
 
 
 
@@ -167,7 +226,7 @@ img{
 
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-            'gridalignment test test test .';
+            'gridalignment bookmark-javatext bookmark-javatext bookmark-javatext .';
 
   }
 
@@ -221,7 +280,7 @@ img{
   .bookmark{
 
   }
-  .test{
+  .bookmark-javatext{
 
 
     display: grid;
@@ -232,34 +291,59 @@ img{
             '. gridbookmark gridbookmark gridbookmark .'
             'javatext javatext javatext javatext javatext';
 
-    img{
-      margin-left: -55px;
-       width: 100%;
-     }
+
+
 
     margin-top: 10px;
     margin-bottom: 20px;
-    grid-area: test;
+    grid-area: bookmark-javatext;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 1px 10px -2px rgba(0,0,0,0.75);
     border-radius: 2px;
   }
+
   .java-text{
   margin-top: 10px;
 
-    div{
+    .information{
       padding-top: 160px;
       margin-top: -100px;
-      margin-left: 40px;
-      margin-right: 40px;
+      margin-left: 10px;
+      margin-right: 10px;
 
       ul{
-        margin-left: 15px;
+
         list-style-type: none;
       }
     }
 
   }
+
+  .grid-img-text{
+
+    grid-column: 2 / 3;
+    h3{
+      margin-top: 100px;
+    }
+
+  }
+  .grid-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+  }
+.bookmark-javatextbild{
+  grid-column: 1 / 2;
+}.courses-img{
+  margin-top: 10px;
+
+   width: 100%;
+   margin-left: 0px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
 
 
 
