@@ -1,11 +1,14 @@
 {
+
+  "moldalLogo": "molndallogo.png",
+
   "kontaktHeader": "Kontakt",
 
   "kontaktLinks":[
     "mailto:vagledning.campus@molndal.se",
     "tel:031-315 10 14",
     "https://www.facebook.com/campusmolndal/"
-          ],
+  ],
   "kontaktPicture": [
     "far fa-envelope",
     "fas fa-phone",
@@ -20,21 +23,19 @@
 
   "findLinks":[
     "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA",
-    "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA",
-    "https://www.google.se/maps/place/Campus+M%C3%B6lndal/@57.670819,12.0086165,15z/data=!4m2!3m1!1s0x0:0xae402e7a2c7e6dd4?ved=2ahUKEwjDn8qj4c7eAhWBxosKHQjzBfMQ_BIwCnoECAYQCA"
+    "https://www.google.se/maps/place/G%C3%B6teborgsv%C3%A4gen+19,+431+30+M%C3%B6lndal/@57.6578523,12.0128957,17z/data=!3m1!4b1!4m5!3m4!1s0x464ff23150bf7c3b:0x72b61520428841c9!8m2!3d57.6578494!4d12.0150897"
   ],
 
   "findText": [
-    "Krokslätts Fabriker 12A",
-    "431 37",
-    "Mölndal"
+    "Campus Mölndal Krokslätt",
+    "Campus Mölndal Möllan"
   ],
   "fastHeader" : "Snabblänkar",
   "fastLinks":[
-    "#",
+    "https://apply.yh-antagning.se/Application/Initiate?educationProviderId=83f466c7-d169-4ea6-8e07-e3ceabf6b628&admissionRoundId=de1d00a9-6285-4736-908c-5c1f644d4b5c&educationId=d7897601-930f-4688-a54e-60e55f353932",
     "https://campusmolndal.itslearning.com/",
-    "#",
-    "https://www.molndal.se/startsida/kommun-och-politik/insyn-och-paverkan/synpunkter-och-felanmalan.html"
+    "https://www.molndal.se/startsida/kommun-och-politik/insyn-och-paverkan/synpunkter-och-felanmalan.html",
+    "#"
   ],
 
   "fastText": [

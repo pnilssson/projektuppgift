@@ -72,6 +72,12 @@
 .footer i {
   margin-right: 10px;
 }
+.footer .molndallogo {
+  background: url("../img/molndallogo.png");
+  display: inline-block;
+  width: 110px;
+  height: 114px;
+}
 
 /* TABLETS */
 @media (min-width: 768px) {
@@ -104,6 +110,8 @@
   }
   .navbar ul {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
   .navbar li {
     margin: 15px 15px 15px 15px;

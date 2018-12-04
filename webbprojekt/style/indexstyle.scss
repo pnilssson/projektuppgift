@@ -64,7 +64,7 @@ html, body{
   }
 
   .top-image {
-    background: url("../img/campus-entry-400-dark.jpg") no-repeat center;
+    background: url("../img/campus-house-400-dark.jpg") no-repeat center;
     height: 400px;
     box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.75);
     color: #FAFFFF;
@@ -74,6 +74,7 @@ html, body{
     top: 20%;
     margin: 0 20% 0 5%;
     padding: 10px;
+    font-size: 16px;
   }
   .top-image h3 {
     position: relative;
@@ -113,7 +114,7 @@ html, body{
   }
 
 .course-img1 { background: url("../img/courses1.jpg") no-repeat center; }
-.course-img2 { background: url("../img/courses2.jpg") no-repeat center ; }
+.course-img2 { background: url("../img/courses2.jpg") no-repeat center; }
 .course-img3 { background: url("../img/courses3.jpg") no-repeat center; }
 .course-img4 { background: url("../img/courses4.jpg") no-repeat center; }
 .course-img5 { background: url("../img/courses5.jpg") no-repeat center; }
