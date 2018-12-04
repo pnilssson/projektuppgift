@@ -50,59 +50,59 @@
         <a href="utbildningar.html">
         <div class="course-image course-img1">
         <h4>Yrkeshögskola</h4>
-        <p>Eftergymnasiala och kvalificerade yrkesutbildningar utformade efter arbetsmarknadens behov.</p>
+        <p>Eftergymnasiala och kvalificerade yrkesutbildningar utformade efter arbetsmarknadens behov</p>
         </div>
         </a>
-        <a href="utbildningar.html"><div class="read-more-button">Läs Mer</div></a>
+        <a href="utbildningar.html"><div class="read-more-button">Läs mer</div></a>
     </article>
     <article class="grid-column-center">
         <div class="course-image course-img2">
         <h4>Företagsutbildningar</h4>
-        <p>Skräddarsydda utbildningar för organisationer och företag.</p>
+        <p>Skräddarsydda utbildningar för organisationer och företag</p>
         </div>
-            <div class="read-more-button"><a href="">Läs Mer</a></div>
+            <div class="read-more-button"><a href="">Läs mer</a></div>
     </article>
     <article class="grid-column-left">
         <div class="course-image course-img3">
         <h4>Grundläggande vuxenutbildning</h4>
         <p>Kurser motsvarande grundskolenivå.</p>
         </div>
-        <div class="read-more-button"><a href="">Läs Mer</a></div>
+        <div class="read-more-button"><a href="">Läs mer</a></div>
     </article>
     <article class="grid-column-center">
         <div class="course-image course-img4">
         <h4>Gymnasial vuxenutbidlning</h4>
-        <p>Kurser eller hel utbildning på gymnasial nivå.</p>
+        <p>Kurser eller hel utbildning på gymnasial nivå</p>
         </div>
-        <div class="read-more-button"><a href="">Läs Mer</a></div>
+        <div class="read-more-button"><a href="">Läs mer</a></div>
     </article>
     <article class="grid-column-left">
         <div class="course-image course-img5">
         <h4>Gymnasial yrkesutbildning</h4>
-        <p>Utbildning mot arbete inom ett särskilt område.</p>
+        <p>Utbildning mot arbete inom ett särskilt område</p>
         </div>
-        <div class="read-more-button"><a href="">Läs Mer</a></div>
+        <div class="read-more-button"><a href="">Läs mer</a></div>
     </article>
     <article class="grid-column-center">
         <div class="course-image course-img6">
         <h4>Särskild utbildning för vuxna</h4>
-        <p>För dig med kognitiv funktionsnedsättning eller förvärvad hjärnskada.</p>
+        <p>För dig med kognitiv funktionsnedsättning eller förvärvad hjärnskada</p>
         </div>
-            <div class="read-more-button"><a href="">Läs Mer</a></div>
+            <div class="read-more-button"><a href="">Läs mer</a></div>
     </article>
     <article class="grid-column-left">
         <div class="course-image course-img7">
         <h4>Distansutbildning</h4>
-        <p>Gymnasiala kurser på distans.</p>
+        <p>Gymnasiala kurser på distans</p>
         </div>
-        <div class="read-more-button"><a href="">Läs Mer</a></div>
+        <div class="read-more-button"><a href="">Läs mer</a></div>
     </article>
     <article class="grid-column-center">
         <div class="course-image course-img8">
         <h4>SFI - Svenska för invandrare</h4>
-        <p>Grundläggande utbildning för invandrare i svenska.</p>
+        <p>Grundläggande utbildning i svenska för invandrare</p>
         </div>
-            <div class="read-more-button"><a href="">Läs Mer</a></div>
+            <div class="read-more-button"><a href="">Läs mer</a></div>
     </article>
     <article class="datum-mobile">
         <h3>Viktiga Datum</h3>
