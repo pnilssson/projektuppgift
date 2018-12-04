@@ -141,7 +141,9 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
   }
   .footer ul {
     list-style: none;
