@@ -3,26 +3,57 @@ $body-font:font-family, 'Montserrat', sans-serif;
 $primary-blue: #0070F1;
 $secondary-blue: #70C4FF;
 
-// Grid
-.grid-container{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas:
-          'header header header header header'
-          '. bottomLeft bottomRight bottomRight .';
-  //background-color: #2196F3;
+body {
+  background-color: #E7EBEB;
 }
+
+#spaceTop img {
+  width: 100%;
+  height: 400px;
+}
+
+/* Ultra Wide */
+@media (min-width: 1920px){
+  .grid-container{
+    display: grid;
+    width: 1920px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            '. header header header .'
+            '. bottomLeft bottomRight bottomRight .';
+  }
+}
+
+
+/* Computer*/
+@media (min-width: 1132px){
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            '. header header header .'
+            '. bottomLeft bottomRight bottomRight .';
+  }
+}
+
+// Grid
+
 .grid-header{
   grid-area: header;
-  //background-color: #70C4FF;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px -2px rgba(0,0,0,0.75);
 }
 .grid-bottom-left{
   grid-area: bottomLeft;
-  //background-color: dodgerblue;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 1px 5px -2px rgba(0,0,0,0.75);
 }
 
 .grid-bottom-right{
   grid-area: bottomRight;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px -2px rgba(0,0,0,0.75);
 }
 // Grid ovanför
 
@@ -30,17 +61,9 @@ $secondary-blue: #70C4FF;
 
 // grid-header
 .header {
-  font-size: 100%;
-  text-align: center;
-  font-weight: bold;
+  padding: 10px 20px 10px 20px;
 }
-.header img {
-  width: 100%;
-  height: 400px;
-}
-h3{
-  margin-top: 20px;
-}
+
 
 // grid-bottom-left
 .meny {
@@ -58,6 +81,7 @@ h3{
   background-color: #666666;
 }
 
+
 // grid-bottom-right
 .tableCss {
   font-weight: bold;
@@ -66,75 +90,27 @@ h3{
 .hiddenAccordion{
   display: none;
 }
-
-
-
-
-// Borttaget
-//h3 {
-//  font-size: 100%;
-//}
-//p {
-//  font-size: 100%;
-//}
-//.grid-bottom-left div{
-//  margin-bottom: 10px;
-//}
-//.grid-bottom-left ul{
-//  list-style: none;
-//}
-//.grid-bottom-left li::before{
-//  content: "• ";
-//  color: red;
-//}
-//#annaPraktik {
-//  float: left;
-//  width: 40%;
-//  height: auto;
-//}
-//#yrkesHogskolan {
-//  width: 100%;
-//}
-//div li{
-//  margin-left: 20px;
-//}
-//#reklamVideo {
-//  width: 100%;
-//  background-color: #777620;
-//}
-// Troligtvis glömt att ta bort
-//.utbildningar {
-//  font-size: 120%;
-//  text-align: center;
-//}
-//.row {
-// Gör inget ännu
-//}
-//.col-1 {
-//  float: left;
-//  margin-bottom: 10px;
-//  width: 33%;
-//}
-//.courseImg img{
-//  width: 100%;
-//}
-//.courseText{
-//  font-size: 80%;
-//  display: none;
-//  //position: absolute;
-//  bottom: 0px;
-//  background-color: #00B252;
-//  color: white;
-//  text-align: start;
-//  //padding: 10px
-//}
-//.courseHeader{
-//  float: left;
-//  font-weight: bold;
-//}
-//.courseTitel{
-//
-//}
-//.courseStart{
-//  color: gray;
-//}
+.showAccordion{
+  display: block;
+}
+.ui-menu {
+  z-index: 2;
+}
+.rubrik{
+  font-weight: bold;
+}
+/* unvisited link */
+.lankar:link {
+  color: #0070F1;
+  text-decoration: none;
+}
+/* visited link */
+.lankar:visited {
+  color: #0070F1;
+  text-decoration: none;
+}
+/* mouse over link */
+.lankar:hover {
+  color: #3E55FF;
+  text-decoration: none;
+}
