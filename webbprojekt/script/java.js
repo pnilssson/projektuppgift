@@ -46,7 +46,7 @@ xhr.onload = function () {
     newContent += '<h3>' + responseobject.mainHeader + '</h3>';
     newContent += x;
     newContent += '<div class="grid-img">';
-    newContent += '<img src="img/christer_holgersson_technogarden383x501christer.png">';
+    newContent += '<img class="img-text" src="img/christer_holgersson_technogarden383x501christer.png">';
     newContent += '<div class="grid-img-text">'
     newContent += '<h3>Du är efterlängtad!</h3> <p>Vi önskar vi kunde finna fler personer med denna efterfrågade bristkompetens. Sök nu!</p> <P>Christer Holgersson, \n' +
         'Technogarden IT</P>'
@@ -97,7 +97,7 @@ xhr.onload = function () {
     newContent += '<h3>' + responseobject.appropriateHeader + '</h3>';
     newContent += x;
     x = "";
-//    newContent += '<img src="img/programmering.png">';
+
     newContent += '</div>';
 
 

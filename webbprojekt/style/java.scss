@@ -25,6 +25,7 @@ html{
 img{
 
   width: 108%;
+
 }
 
 .grid-img-text{
@@ -147,6 +148,9 @@ img{
 
   height: 400px;
 }
+.img-text{
+  max-width: 350px;
+}
 
 
 /*Tablet*/
@@ -192,6 +196,7 @@ img{
   .alignment {
 
   }
+
   .grid-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -209,6 +214,9 @@ img{
      margin-left: auto;
      margin-right: auto;
    }
+  .img-text{
+    max-width: none;
+  }
 
 
 
@@ -344,6 +352,9 @@ img{
    margin-left: auto;
    margin-right: auto;
  }
+  .img-text{
+    max-width: none;
+  }
 
 
 
