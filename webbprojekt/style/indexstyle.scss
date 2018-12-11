@@ -7,6 +7,7 @@ $secondary-blue: #70C4FF;
 html, body{
   background-color: #FAFFFF;
   overflow-x: hidden;
+  height: 100%;
 }
 
 .index-grid-container {
@@ -235,7 +236,7 @@ html, body{
     position: sticky;
     top: 160px;
     grid-column: 9 / 11;
-    grid-row: 2 / span 2;
+    grid-row-start: 2;
     max-height: 350px;
     background-color: #FAFFFF;
     box-shadow: 0 1px 5px -2px rgba(0,0,0,0.75);
