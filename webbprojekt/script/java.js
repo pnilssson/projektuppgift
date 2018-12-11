@@ -119,7 +119,7 @@ xhr.onload = function () {
         x += '<p>' + responseobject.contactText[i] + '</p>';
 
     }
-    newContent += '<a href="utbildningar.html"> <button class="read-more-button">Ansök</button></a>';
+    newContent += '<a href="https://apply.yh-antagning.se/Application/Initiate?educationProviderId=83f466c7-d169-4ea6-8e07-e3ceabf6b628&admissionRoundId=de1d00a9-6285-4736-908c-5c1f644d4b5c&educationId=d7897601-930f-4688-a54e-60e55f353932"> <button class="read-more-button">Ansök</button></a>';
     newContent += '</div>';
 
 
